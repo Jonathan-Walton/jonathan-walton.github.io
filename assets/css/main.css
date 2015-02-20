@@ -1,0 +1,266 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+.verticalAlign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.displayTable {
+    display: table;
+}
+
+#index-logo {
+    width: 300px;
+    height: 274px;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#index-button {
+    width: 80%;
+}
+
+#menu-bars {
+    position: fixed;
+    left: 0;
+    padding-left: 4px;
+    padding-right: 5px;
+    z-index: 20;
+    color: #666;
+    transition: all .5s;
+}
+
+#menu-bars:hover {
+    color: #000;
+    transition: all .5s;
+}
+
+#shade {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.invisible {
+    display: none;
+}
+
+#menu-drawer {
+    width: 20%;
+    height: 100%;
+    background-color: #f9fafa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    padding-top: 32px;
+}
+
+#clickMe {
+    position: fixed;
+    top: 35px;
+    left: 25px;
+    z-index: 20;
+}
+
+.menuItem {
+    margin: 0;
+    background-color: #f9fafa;
+    border: 0;
+    border-bottom: #ebebeb solid 1px;
+    width: 100%;
+    text-align: left;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    z-index: 10;
+}
+
+.menuItem:hover {
+    margin: 0;
+    background-color: #efefef;
+    border: 0;
+    border-bottom: #dedbdb solid 1px;
+    width: 100%;
+    text-align: left;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+
+.menuItemText {
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#menu-drawer a {
+    color: black;
+    text-decoration: none;
+}
+
+#article {
+    background-color: #fff;
+    overflow: hidden;
+    border-left: #2dc6ff 1px solid;
+    border-top: #2dc6ff 1px solid;
+    font-family: sans-serif;
+}
+
+#spacer {
+    height: 64px;
+    width: 100%;
+}
+
+
+
+#page-wrapper {
+    background-color: #efefef;
+}
+
+#sidebar {
+    width: 200px;
+    background-color: #efefef;
+    min-height: 100%;
+    float: left;
+    font-family: "Open Sans", sans-serif;
+}
+
+#article-wrapper {
+    padding: 20px;
+}
+
+#articleTitle {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.75em;
+    padding-bottom: 5px;
+}
+
+#articleSubtitle {
+    font-family: sans-serif;
+    font-size: .8em;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+#article-info {
+    float: right;
+    background-color: #efefef;
+    border: 1px solid #777;
+    padding: 10px;
+    margin: 0px 0px 20px 20px;
+}
+
+#content-wrapper {
+    font-size: .9em;
+}
+
+#content-wrapper p {
+    line-height: 1.4em;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+#info-title {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+th {
+    width: 50%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+#article-img {
+    width: 298px;
+    border: 1px solid #777;
+}
+
+#page-toc {
+    background-color: #efefef;
+    border: 1px solid #777;
+    padding: 10px;
+    margin: 20px 20px 20px 0px;
+    display: table;
+}
+
+
+
+
+
+#toc {
+    margin-top: 5px;
+}
+
+.toc-item {
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content-title {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5em;
+}
+
+
+
+a:visited {
+    color: blue;
+}
+
+#sidebar p {
+    padding: 10px;
+    font-size: .9em;
+}
+
+#sidebar ul {
+    padding-left: 20px;
+    font-size: .9em;
+}
+
+#sidebar ul li {
+    padding-bottom: 5px;    
+}
